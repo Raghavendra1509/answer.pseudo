@@ -1,0 +1,20 @@
+//Including all header files
+
+#include"stdio.h"
+#include"conio.h"
+#include"stdlib.h"
+
+int main()   //Main program start
+{
+char name;     //initializing variables
+int dig;
+printf("enter name");
+scanf("%c",&name);  // receiving name from user
+randomize();               // declaring random function
+for(int i=6;i<=15;i++)     // starting loop from 6 to 15
+{
+int num=random(dig);
+printf("%c%d",name,dig);    // printing of desired result
+}
+getch();
+}
